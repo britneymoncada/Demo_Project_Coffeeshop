@@ -155,7 +155,7 @@ margin: 0;
   line-height: 30px;
 }
 
-.recipes__iframes{
+.recipes__videos{
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -168,7 +168,7 @@ margin: 0;
   border: none;
 }
 
-.recipes__iframe--left{
+.recipes__videos--left{
   margin-right: 40px;
 }
 
@@ -191,7 +191,7 @@ margin: 0;
   line-height: 30px;
 }
 
-.recipes__video-caption--one,
-.recipes__video-caption--two{
+.video-caption--one,
+.video-caption--two{
   margin: 0;
 }
