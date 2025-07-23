@@ -10,6 +10,7 @@
 .header{
   background-color: #FFFFFF;
   background-image: url(/images/background_header.svg);
+  background-repeat: none;
   background-repeat: no-repeat;
   background-size: cover;
   color: #000000;
@@ -87,6 +88,7 @@
   width: 646px;
   height: 568px;
   z-index: 1;
+  padding: auto;
   padding: 0;
   position: absolute;
   top: 124px;
@@ -168,7 +170,7 @@ margin: 0;
   border: none;
 }
 
-.recipes__videos__video-caption{
+.recipes__videos-caption{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -180,17 +182,17 @@ margin: 0;
   line-height: 30px;
 }
 
-.recipes__videos__video-caption__1,
-.recipes__videos__video-caption__2{
+.recipes__video-caption--one,
+.recipes__video-caption--two{
   margin: 0;
 }
 
 
-.recipes__videos__iframe{
+.recipes__videos-iframe{
   display: flex;
   flex-direction: row;
 }
 
-.recipes__videos__iframe__1{
+.recipes__videos-iframe--left{
   margin-right: 40px;
 }
