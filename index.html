@@ -105,7 +105,7 @@
         </section>
         <section id="reservations-id" class="reservation">
           <div class="reservation__title">Book a table</div>
-          <div class="reservation__form form">
+          <form class="reservation__form form">
             <fieldset class="form__fieldset">
               <label for="guest_name" class="form__label">Name *</label>
               <input
@@ -115,7 +115,9 @@
                 placeholder="Name Surname"
                 required
               />
-              <label for="guest_quantity" class="form__label">Number of guests *</label>
+              <label for="guest_quantity" class="form__label"
+                >Number of guests *</label
+              >
               <input
                 id="guest_quantity"
                 type="number"
@@ -138,12 +140,18 @@
                 placeholder="email@email.com"
                 required
               />
-            <button class="form__button" type="submit">Book a table</button>
-            <div class="form__checkbox">
-              <label for="guest_terms" class="checkboxes"></label>
-              <input type="checkbox" class="checkbox" name="guest_terms" id="guest_terms">I agree with the terms of use
-            </div>
-        </fieldset>
+              <button class="form__button" type="submit">Book a table</button>
+              <div class="form__checkbox">
+                <label for="guest_terms" class="checkboxes"></label>
+                <input
+                  type="checkbox"
+                  class="checkbox"
+                  name="guest_terms"
+                  id="guest_terms"
+                />I agree with the terms of use
+              </div>
+            </fieldset>
+          </form>
         </section>
         <section id="menu-id" class="menu"></section>
         <section id="about-id" class="about"></section>
