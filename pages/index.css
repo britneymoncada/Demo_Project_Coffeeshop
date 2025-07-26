@@ -183,3 +183,88 @@ margin: 0;
   font-size: 20px;
   line-height: 30px;
 }
+
+.reservation{
+  background-color: #d9e7ff;
+  background-image: url(/images/background_reservation.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.reservation__title{
+  margin:100px 0 0 0;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.reservation__form{
+  margin-top: 80px;
+  margin-bottom: 120px;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__fieldset{
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  border: none;
+  max-width: 385px;
+}
+
+.form__label{
+  margin-bottom: 8px;
+}
+
+input::-webkit-input-placeholder,
+input::-moz-placeholder,
+input::-ms-input-placeholder,
+input::placeholder  {
+  font-family: Inter;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="datetime-local"],
+input[type="email"]{
+margin-bottom: 32px;
+padding: 15px 20px;
+border: 1px solid #838383;
+}
+
+.form__button{
+  border-radius: 4px;
+  background-color: #1878dc;
+  transition: background-color 0.2s linear 0.1s;
+  padding: 20px 0;
+  margin-bottom: 32px;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.form__button:hover{
+  background-color: #3f96f3;
+}
+
+.form__checkbox{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.checkbox{
+  margin-right: 12px;
+}
