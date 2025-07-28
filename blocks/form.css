@@ -43,8 +43,9 @@
   justify-content: center;
 }
 
-.checkbox{
+.form__checkbox_checkbox{
   margin-right: 12px;
+  border-radius: 2px;
 }
 
 input::-webkit-input-placeholder,
