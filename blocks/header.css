@@ -1,9 +1,9 @@
 .header {
-  background-color: #FFFFFF;
-  background-image: url(/images/background_header.svg);
-  background-repeat: no-repeat;
+  background-color: #ffffff;
+  background-image: url(../images/background_header.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   color: #000000;
   height: 800px;
   width: 100%;
@@ -29,7 +29,8 @@
   font-style: italic;
   font-size: 60px;
   line-height: 72px;
-  color: #3F96F3;
+  color: #3f96f3;
+  display: block;
 }
 
 .header__description {
@@ -52,16 +53,16 @@
 }
 
 .header__footer {
- display: flex;
- flex-direction: row;
- justify-content: space-between;
- align-items: flex-end;
- margin-top: auto;
- font-family: "Inter";
- font-weight: 500;
- font-size: 16px;
- line-height: 20px;
- color: #6f6f6f;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: auto;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6f6f6f;
 }
 
 .header__paragraph-hours {
@@ -74,8 +75,6 @@
 }
 
 .header__paragraph-location {
-padding: 0;
-position: absolute;
-right: 80px;
-margin: 0;
+  padding: 0;
+  margin: 0;
 }

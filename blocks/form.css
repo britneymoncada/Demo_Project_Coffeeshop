@@ -1,21 +1,22 @@
-
-.form{
+.form {
+  width: 100%;
   max-width: 385px;
 }
 
-.form__fieldset{
+.form__fieldset {
   display: flex;
   flex-direction: column;
   padding: 0;
   border: none;
 }
 
-.form__label{
+.form__label {
   margin-bottom: 8px;
 }
 
-.form__button{
+.form__button {
   border-radius: 4px;
+  border: 0;
   background-color: #1878dc;
   transition: background-color 0.2s linear 0.1s;
   padding: 20px 0;
@@ -24,44 +25,33 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
   transition: background-color 0.4s;
 }
 
-.form__button:hover{
+.form__button:hover {
   background-color: #3f96f3;
 }
 
-.form__button:hover{
-  background-color: #3f96f3;
-}
-
-.form__checkbox{
+.form__checkbox_container {
   display: flex;
-  flex-direction: row;
   justify-content: center;
+  gap: 12px;
 }
 
-.form__checkbox_checkbox{
-  margin-right: 12px;
+.form__checkbox {
   border-radius: 2px;
+  width: 20px;
+  height: 20px;
 }
 
-input::-webkit-input-placeholder,
-input::-moz-placeholder,
-input::-ms-input-placeholder,
-input::placeholder  {
+.form__input {
+  margin-bottom: 32px;
+  padding: 15px 20px;
+  border: 1px solid #838383;
+  border-radius: 4px;
   font-family: Inter;
   font-size: 20px;
   line-height: 30px;
-}
-
-input[type="text"],
-input[type="number"],
-input[type="datetime-local"],
-input[type="email"]{
-margin-bottom: 32px;
-padding: 15px 20px;
-border: 1px solid #838383;
 }

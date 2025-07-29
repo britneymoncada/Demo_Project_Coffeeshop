@@ -41,15 +41,15 @@
           </ul>
         </nav>
         <h1 class="header__title">
-          <span class="header__span-accent">Specialty coffee</span>
-          <br />in the Triple Peaks Library
+          <span class="header__span-accent">Specialty coffee</span> in the
+          Triple Peaks Library
         </h1>
         <p class="header__description">
-          Welcome to our study zone! We've got the coffee to energize you
-          <br />and the cozy vibes to help you get creative.
+          Welcome to our study zone! We've got the coffee to energize you and
+          the cozy vibes to help you get creative.
         </p>
         <img
-          src="/images/inside_coffee_shop.png"
+          src="./images/inside_coffee_shop.png"
           alt="Header picture"
           class="header__image"
         />
@@ -71,8 +71,8 @@
             Check out some recipes we've collected for your home-brewing
             convenience:
           </p>
-          <div class="recipes__videos">
-            <div class="recipes__video">
+          <ul class="recipes__videos">
+            <li class="recipes__video">
               <iframe
                 class="recipes__iframe"
                 src="https://www.youtube.com/embed/j6VlT_jUVPc?si=Ximied1b-J2QG_iG"
@@ -81,12 +81,12 @@
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
               ></iframe>
-              <div class="recipes__video-captions">
+              <p class="recipes__video-captions">
                 <span> Aeropace recipe </span>
                 <span> ~ 5 min </span>
-              </div>
-            </div>
-            <div class="recipes__video">
+              </p>
+            </li>
+            <li class="recipes__video">
               <iframe
                 class="recipes__iframe"
                 src="https://www.youtube.com/embed/st571DYYTR8?si=RiT9MlWuFoFLwgb4"
@@ -95,12 +95,12 @@
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
               ></iframe>
-              <div class="recipes__video-captions">
+              <p class="recipes__video-captions">
                 <span> French Press recipe </span>
                 <span> ~ 4 min </span>
-              </div>
-            </div>
-          </div>
+              </p>
+            </li>
+          </ul>
         </section>
         <section id="reservations-id" class="reservation">
           <h2 class="reservation__title">Book a table</h2>
@@ -140,16 +140,14 @@
                 required
               />
               <button class="form__button" type="submit">Book a table</button>
-              <div class="form__checkbox">
-                <label for="guest_terms">
-                  <input
-                    type="checkbox"
-                    class="form__checkbox form__checkbox_checkbox"
-                    name="guest_terms"
-                    id="guest_terms"
-                  />I agree with the terms of use</label
-                >
-              </div>
+              <label for="guest_terms" class="form__checkbox_container">
+                <input
+                  type="checkbox"
+                  class="form__checkbox"
+                  name="guest_terms"
+                  id="guest_terms"
+                />I agree with the terms of use</label
+              >
             </fieldset>
           </form>
         </section>
@@ -161,7 +159,7 @@
           </p>
           <div class="menu__cards">
             <div class="card">
-              <div class="card__title">Filter</div>
+              <h2 class="card__title">Filter</h2>
               <ul class="card__list-items">
                 <li class="card__list-item">
                   Regular (12 oz)
@@ -186,7 +184,7 @@
               </ul>
             </div>
             <div class="card">
-              <div class="card__title">Espresso</div>
+              <h2 class="card__title">Espresso</h2>
               <ul class="card__list-items">
                 <li class="card__list-item">
                   Macchiato
@@ -207,7 +205,7 @@
               </ul>
             </div>
             <div class="card">
-              <div class="card__title">Baked Goods</div>
+              <h2 class="card__title">Baked Goods</h2>
               <ul class="card__list-items">
                 <li class="card__list-item">
                   Almond Croissant
@@ -242,35 +240,35 @@
           <div class="about__circle about__circle_animation_blurred"></div>
           <h2 class="about__title">About the coffee shop</h2>
           <div class="about__content">
-            <h3 class="about__paragraph">
+            <p class="about__paragraph">
               Our coffee shop is located in the Triple Peaks Library. It
               features 6 tables and free WiFi.
-            </h3>
-            <h3 class="about__paragraph">
+            </p>
+            <p class="about__paragraph">
               Our main mission is keeping guests cozy and energized.
-            </h3>
-            <h3 class="about__paragraph">
+            </p>
+            <p class="about__paragraph">
               Besides that, we try to reduce our environmental impact — so we
               don't sell single-use cups. But you can buy one of our reusable
               cups!
-            </h3>
+            </p>
           </div>
         </section>
       </main>
       <footer class="footer" id="contacts">
         <div class="footer__content">
           <img
-            src="/images/logo_coffeeshop_light.svg"
+            src="./images/logo_coffeeshop_light.svg"
             alt="tt logo"
             class="footer__logo"
           />
           <div class="footer__column">
-            <div class="footer__social-heading">Social media</div>
+            <h3 class="footer__social-heading">Social media</h3>
             <ul class="footer__list">
               <li class="footer__list-item">
                 <a href="#facebook-link" class="footer__social-link">
                   <img
-                    src="/images/facebook_white.svg"
+                    src="./images/facebook_white.svg"
                     alt="facebook logo"
                     class="footer__social-icon"
                   />Facebook
@@ -279,7 +277,7 @@
               <li class="footer__list-item">
                 <a href="#instagram-link" class="footer__social-link">
                   <img
-                    src="/images/instagram_white.svg"
+                    src="./images/instagram_white.svg"
                     alt="instagram logo"
                     class="footer__social-icon"
                   />Instagram
@@ -288,7 +286,7 @@
             </ul>
           </div>
         </div>
-        <div class="footer__copyright">© Britney Moncada</div>
+        <h3 class="footer__copyright">© Britney Moncada</h3>
       </footer>
     </div>
   </body>
