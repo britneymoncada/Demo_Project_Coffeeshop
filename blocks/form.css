@@ -34,7 +34,7 @@
   background-color: #3f96f3;
 }
 
-.form__checkbox_container {
+.form__checkbox-container {
   display: flex;
   justify-content: center;
   gap: 12px;
