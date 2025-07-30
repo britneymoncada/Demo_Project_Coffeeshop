@@ -11,7 +11,7 @@
 
 .reservation__title {
   margin: 100px 0 0 0;
-  font-family: Inter;
+  font-family: Inter, Arial, sans-serif;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
@@ -20,7 +20,7 @@
 .reservation__form {
   margin-top: 80px;
   margin-bottom: 120px;
-  font-family: Inter;
+  font-family: Inter, Arial, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;

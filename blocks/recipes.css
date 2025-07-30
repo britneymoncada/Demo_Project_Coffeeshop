@@ -24,7 +24,7 @@
 .recipes__subtitle {
   max-width: 438px;
   margin: 0 0 80px 0;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
 }
@@ -37,6 +37,7 @@
   margin: 0;
   gap: 40px;
   list-style: none;
+  padding: 0;
 }
 
 .recipes__iframe {
@@ -53,7 +54,7 @@
   flex-direction: row;
   justify-content: space-between;
   padding: 0;
-  font-family: "Inter";
+  font-family: Inter, Arial, sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;

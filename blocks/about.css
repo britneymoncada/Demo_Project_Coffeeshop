@@ -8,7 +8,7 @@
 
 .about__title {
   z-index: 1;
-  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  font-family: Inter, Arial, sans-serif;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
@@ -48,7 +48,7 @@
 .about__content {
   display: flex;
   flex-direction: column;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
   color: #fff;
@@ -60,7 +60,7 @@
 
 .about__paragraph {
   margin: 0;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
   font-weight: 400;
