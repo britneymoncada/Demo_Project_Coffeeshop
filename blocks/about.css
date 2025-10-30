@@ -14,7 +14,8 @@
   line-height: 52px;
   color: #fff;
   max-width: 251px;
-  margin: 100px 0 0 80px;
+  margin: 0;
+  padding: 30px;
 }
 
 .about__circle {
@@ -64,4 +65,21 @@
   font-size: 20px;
   line-height: 30px;
   font-weight: 400;
+}
+
+@media (max-width: 1100px) {
+  .about {
+    padding: 0px;
+  }
+
+  .about__content {
+    max-width: 50%;
+    margin: 119px 0px 173px 0px;
+    padding: 50px;
+  }
+
+  .about__title {
+    margin: 0px;
+    padding: 25px;
+  }
 }

@@ -11,5 +11,6 @@
   .page {
     min-width: fit-content;
     max-width: 100%;
+    margin: 0px;
   }
 }
