@@ -10,7 +10,7 @@
 }
 
 .reservation__title {
-  margin: 100px 0 0 0;
+  margin: 30px 0;
   font-family: Inter, Arial, sans-serif;
   font-weight: 500;
   font-size: 44px;
@@ -24,4 +24,15 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+}
+
+@media (max-width: 439px) {
+  .reservation {
+    margin: 0 auto;
+  }
+
+  .reservation__title {
+    font-size: 40px;
+    margin-top: 40px;
+  }
 }

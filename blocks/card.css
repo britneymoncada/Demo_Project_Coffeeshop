@@ -36,3 +36,16 @@
   flex-grow: 1;
   border-bottom: 1px solid black;
 }
+
+@media (max-width: 439px) {
+  .card__list-item {
+    gap: 0px;
+    padding-bottom: 30px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card__title {
+    text-align: center;
+  }
+}

@@ -41,12 +41,29 @@
 
 @media (max-width: 1375px) {
   .menu {
-    padding: 30px 0;
+    padding: 100px 0;
+    max-width: 100%;
+    align-items: center;
   }
 }
 
 @media (max-width: 1100px) {
   .menu__subtitle {
     width: 70%;
+  }
+}
+
+@media (max-width: 640px) {
+  .menu__cards {
+    width: 100%;
+    gap: 30px;
+  }
+
+  .menu__card {
+    justify-content: center;
+  }
+
+  .menu__subtitle {
+    margin-bottom: 30px;
   }
 }

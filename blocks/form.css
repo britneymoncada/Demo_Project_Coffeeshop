@@ -1,6 +1,8 @@
 .form {
-  width: 100%;
+  width: 90%;
   max-width: 385px;
+  margin: 0 auto 100px;
+  box-sizing: border-box;
 }
 
 .form__fieldset {
@@ -54,4 +56,23 @@
   font-family: Inter, Arial, sans-serif;
   font-size: 20px;
   line-height: 30px;
+}
+
+@media (max-width: 439px) {
+  .form__label {
+    margin: 8px;
+    max-width: fit-content;
+    font-size: 14px;
+  }
+
+  .form__input {
+    max-width: 80%;
+    font-size: 14px;
+    margin: 8px;
+    padding: 5px;
+  }
+
+  .form__button {
+    margin: 32px 0;
+  }
 }

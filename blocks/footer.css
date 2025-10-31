@@ -68,3 +68,19 @@
   line-height: 20px;
   margin: 0;
 }
+
+@media (max-width: 675px) {
+  .footer__content {
+    max-width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .footer__copyright {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0;
+    font-size: 14px;
+  }
+}
